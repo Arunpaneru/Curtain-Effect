@@ -23,7 +23,6 @@ span {
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  /* background: #fff; */
 }
 
 .loader-wrap svg {
@@ -33,7 +32,6 @@ span {
   width: 100%;
   height: 110vh;
   fill: #1a1a1a;
-  max-width: 1440px;
 }
 
 .loader-wrap .loader-wrap-heading h1 {

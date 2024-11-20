@@ -31,8 +31,14 @@ window.addEventListener("load", () => {
       ease: "power2.out",
     })
     .set(".loader-wrap", {
+      zIndex: -1,
       display: "none",
+    });
+
+  const button = document.querySelectorAll("button");
+  button.forEach((btn) =>
+    btn.addEventListener("click", () => {
+      console.log("button clicked");
     })
-   
-   
+  );
 });
