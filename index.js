@@ -30,19 +30,9 @@ window.addEventListener("load", () => {
       attr: { d: flat },
       ease: "power2.out",
     })
-    .to(".loader-wrap", {
-      y: -1500,
-    })
-    .to(".loader-wrap", {
-      zIndex: -1,
+    .set(".loader-wrap", {
       display: "none",
     })
-    .from(
-      ".container h1",
-      {
-        y: 100,
-        opacity: 0,
-      },
-      "-=1.5"
-    );
+   
+   
 });
